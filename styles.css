@@ -2,7 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    }
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.item img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid {
+    grid-template-columns: 1fr;
 }
 
 header {
